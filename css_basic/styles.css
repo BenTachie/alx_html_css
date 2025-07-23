@@ -22,6 +22,20 @@ article {
   padding: 1rem;
 }
 
+/* Add more styling */
+article h2 {
+  color: #005f73;
+  font-size: 1.8rem;
+}
+
+article p {
+  line-height: 1.6;
+  background-color: #fefae0;
+  padding: 10px;
+  border-left: 4px solid #9b2226;
+}
+
+
 /* Aside: occupies 1/3 of the width */
 aside {
   flex: 1;
