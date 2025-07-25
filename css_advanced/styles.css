@@ -141,3 +141,27 @@ header div nav ul {
 }
 
 
+
+/* Quote Section */
+.quote {
+    background-color: #C271FF;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.quote .container {
+    display: flex;
+    padding: 6rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.quote blockquote {
+    font-weight: lighter;
+}
+
+.quote h3 {
+    margin-top: 1.5rem;
+}
+
