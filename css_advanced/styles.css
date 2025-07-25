@@ -338,3 +338,34 @@ header div nav ul {
     font-size: 12px;
     line-height: 1.5;
 }
+
+/* Footer Section */
+footer {
+    background-color: #071629;
+    color: #fff;
+    padding-top: 3rem;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+footer section .foot {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot div {
+    display: flex;
+    gap: 1rem;
+}
+
+footer p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: #5f5c5c;
+}
