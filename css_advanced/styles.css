@@ -2,166 +2,256 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: inherit;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
 }
 
+/* Header Section */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header {
-    position: absolute;
-    z-index: 100;
-    width: 100%;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
 }
 
 header div nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem;
 }
 
 header div nav ul {
-    display: flex;
-    gap: 2rem;
-    font-size: 0.8rem;
-    color: #fff;
+  display: flex;
+  gap: 2rem;
+  font-size: 0.8rem;
+  color: #fff;
 }
 
+/* Hero Section */
 .hero-section {
-    background-image: url('Assets/images/Object.png');
-    height: 100vh;
+  background-image: url("Assets/images/Object.png");
+  height: 100vh;
 }
 
 .hero-section .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .hero-section img {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
 }
 
 .hero-section h1 {
-    color: white;
-    font-size: 8.5rem;
-    font-weight: bold;
-    margin-top: 4rem;
+  color: white;
+  font-size: 8.5rem;
+  font-weight: bold;
+  margin-top: 4rem;
 }
 
 .hero-section-title {
-    text-align: center;
+  text-align: center;
 }
 
 .primary-button {
-    padding: 0.7rem;
-    background-color: #C271FF;
-    border-radius: 50px;
-    margin-top: 1rem;
-    border: none;
-    color: #fff;
-    font-weight: 560;
+  padding: 0.7rem;
+  background-color: #c271ff;
+  border-radius: 50px;
+  margin-top: 1rem;
+  border: none;
+  color: #fff;
+  font-weight: 560;
 }
 
 .hero-section-title div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: self-start;
-    gap: 2rem;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: self-start;
+  gap: 2rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
 }
-
 
 .hero-section .pros-showcase {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
 }
 
-
 .hero-section .pros-showcase h2 {
-    margin-bottom: 4rem;
-    font-weight: lighter;
-    font-size: 2rem;
-    color: #fff;
+  margin-bottom: 4rem;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: #fff;
 }
 
 .hero-section .pros-showcase h2 span {
-    color: #C271FF;
+  color: #c271ff;
 }
 
 .hero-section .pros-showcase .card {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
 }
 
 .hero-section .pros-showcase .card div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
 }
 
 .hero-section .pros-showcase div div {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    gap: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 0.3rem;
 }
 
 .hero-section .pros-showcase div div p {
-    font-style: italic;
-    font-size: 0.8rem;
+  font-style: italic;
+  font-size: 0.8rem;
 }
 
 .hero-section .pros-showcase div div h2 {
-    font-weight: bolder;
-    font-family: 1rem;
+  font-weight: bolder;
+  font-family: 1rem;
 }
-
-
 
 /* Quote Section */
 .quote {
-    background-color: #C271FF;
-    color: #fff;
-    font-size: 1.2rem;
+  background-color: #c271ff;
+  color: #fff;
+  font-size: 1.2rem;
 }
 
 .quote .container {
-    display: flex;
-    padding: 6rem;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  padding: 6rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .quote blockquote {
-    font-weight: lighter;
+  font-weight: lighter;
 }
 
 .quote h3 {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* Video List Section */
+.tutorials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;;
+    padding: 3rem;
+}
+
+.tutorials h2 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.tutorials h2 span {
+    color: #C271FF;
+}
+
+.tutorials-card {
+    display: flex;
+    gap: 1.5rem;
+
+}
+
+.video-thumbnail {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-thumbnail img:first-child {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.video-thumbnail .play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px; 
+  height: 50px;
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.video-thumbnail:hover .play-icon {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.tutorials-card .card-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.avatar {
+    color: #C271FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.tutorials-card .star {
+    display: flex;
+    color: #C271FF;
+    flex-direction: row;
+}
+
+.tutorial-bottom {
+    color: #C271FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
