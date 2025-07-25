@@ -165,29 +165,28 @@ header div nav ul {
 
 /* Video List Section */
 .tutorials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;;
-    padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 3rem;
 }
 
 .tutorials h2 {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    font-size: 2rem;
-    font-weight: lighter;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  font-weight: lighter;
 }
 
 .tutorials h2 span {
-    color: #C271FF;
+  color: #c271ff;
 }
 
 .tutorials-card {
-    display: flex;
-    gap: 1.5rem;
-
+  display: flex;
+  gap: 1.5rem;
 }
 
 .video-thumbnail {
@@ -210,7 +209,7 @@ header div nav ul {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 50px; 
+  width: 50px;
   height: 50px;
   transform: translate(-50%, -50%);
   opacity: 0.9;
@@ -223,35 +222,81 @@ header div nav ul {
 }
 
 .tutorials-card .card-item {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .avatar {
-    color: #C271FF;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
+  color: #c271ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
 
 .avatar img {
-    width: 2rem;
-    height: 2rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .tutorials-card .star {
-    display: flex;
-    color: #C271FF;
-    flex-direction: row;
+  display: flex;
+  color: #c271ff;
+  flex-direction: row;
 }
 
 .tutorial-bottom {
-    color: #C271FF;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem;
+  color: #c271ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
+/* Membership Section */
+.membership {
+  background-color: #071629;
+  color: #fff;
+  padding: 4rem 0;
+}
+
+.membership h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.membership .container span {
+  color: #c271ff;
+}
+.membership .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.membership .members {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.member img {
+  padding: 1rem;
+}
+.member h3 {
+ padding: 1rem;
+}
