@@ -300,3 +300,41 @@ header div nav ul {
 .member h3 {
  padding: 1rem;
 }
+
+/* FAQ Section */
+.faq {
+    margin: 4rem 1rem;
+}
+
+.faq .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.faq .container h2 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+.faq-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    justify-content: center;
+}
+
+.faq-content div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 350px;
+}
+
+.faq-content div p {
+    color: rgb(92, 88, 88);
+    font-size: 12px;
+    line-height: 1.5;
+}
