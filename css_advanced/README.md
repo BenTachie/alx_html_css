@@ -5,6 +5,8 @@
 This project is a continuation of the *HTML, Advanced* module, with a focus on applying modern, standards-compliant **CSS styling** to structure, beautify, and enhance the responsiveness of a multipage layout. The layout and visual design are based on a Figma prototype, simulating a real-world front-end development workflow.
 
 You will work strictly with **HTML**, **CSS**, and **JavaScript**, without relying on any frameworks or libraries, to sharpen your core frontend skills.
+<img width="800" height="2066" alt="image" src="https://github.com/user-attachments/assets/722d80c2-85c5-4505-b0c3-7ccdf2287635" />
+
 
 ---
 
@@ -46,43 +48,52 @@ css_advanced/
 
 ✅ Styling must be non-positioning unless within the <article> tag (per scope constraints)
 
-## 🎨 Styling Guidelines
-Recreate the design from the provided Figma file with high visual accuracy
+## 📌 Styling Guidelines
 
-Follow mobile-first, responsive design principles
+- Recreate the design from the **provided Figma file** with high visual fidelity.
+- Follow **mobile-first** and **responsive design** principles.
+- Use **semantic HTML5** elements for structure and accessibility.
+- Apply **Flexbox** for layout wherever applicable.
+- Integrate custom fonts:
+  - `Source Sans Pro`
+  - `Spin Cycle OT`  
+  *(If not pre-installed, download and include manually in the project.)*
+- Use **Font Awesome** for icons (already linked via CDN).
 
-Use semantic HTML5 elements
-
-Apply Flexbox for layout where needed
-
-Integrate custom fonts like Source Sans Pro and Spin Cycle OT (if not installed, download manually)
-
-Use icons via Font Awesome (already linked via CDN)
+---
 
 ## 🌍 Responsive Design
-Ensure your site is usable and aesthetically pleasing across different screen sizes. Pay attention to:
 
-Font scaling
+Ensure your site is **usable and visually appealing** across different screen sizes. Pay close attention to:
 
-Layout adaptability (stacking, wrapping)
-
-Image responsiveness
-
-Mobile viewport configuration (<meta name="viewport" ...>)
-
+- 📏 Font scaling
+- 🧱 Layout adaptability (stacking, wrapping, reordering)
+- 🖼️ Image responsiveness
+- 📱 Mobile viewport configuration  
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ ```
+  
 ## 🖼️ Image Resources
-Images provided in the downloadable ZIP must be placed in an /images folder and referenced properly within the HTML.
 
-## 💡 Notes
-Values from Figma may be floats—feel free to round them to the nearest practical unit (e.g., 12.3px → 12px).
+All images provided in the downloadable ZIP file should be placed in an /images folder.
 
-Update the HTML content (e.g., logos, icons) to match the final design.
+Reference them correctly in your HTML using relative paths:
+```
+<img src="./images/filename.png" alt="description">
+```
 
-You may customize content within the <article> tag but must not alter the Flexbox-based layout strategy outside it.
+## 💡 Additional Notes: 
+
+- Values from Figma may appear as floating-point units (e.g., 12.3px).
+👉 You may round to the nearest practical value (e.g., 12px).
+- Ensure the HTML content such as logos, icons, and copy matches the final design.
+- You are allowed to customise the content within the <article> tag.
+- Do not alter the Flexbox-based layout strategy outside of the <article> structure.
 
 ## 👨‍🎓 Author
 Benedict Tachie
-Frontend Developer | Data Science Enthusiast
-Crafting user-centric experiences through clean code and elegant design.
+- Frontend Developer | Data Science Enthusiast
+- Crafting user-centric experiences through clean code and elegant design.
 
-"Style is a way to say who you are without having to speak." – Rachel Zoe
+>"Style is a way to say who you are without having to speak." – Rachel Zoe
