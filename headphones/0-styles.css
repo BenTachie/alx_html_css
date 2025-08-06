@@ -1,0 +1,143 @@
+/* RESET & BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  background-color: #000c1f;
+}
+
+:root {
+  --primary-color: #FF6565;
+  --max-width: 1000px;
+}
+
+/* HERO SECTION */
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('assets/images/headphones_hero_1.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+/* NAVIGATION */
+.nav {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+
+.nav__menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__menu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.nav__menu li a:hover,
+.nav__menu li a:active {
+  color: var(--primary-color);
+}
+
+/* HERO CONTENT */
+.hero__content {
+  position: relative;
+  z-index: 2;
+  max-width: var(--max-width);
+}
+
+.hero__content h1 {
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  margin-bottom: 1rem;
+}
+
+.hero__content h2 {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.hero__content p {
+  max-width: 800px;
+  margin: 2rem auto 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* CTA BUTTON*/
+.btn {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 0.9;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 480px) {
+  .nav__menu {
+    display: none;
+  }
+
+  .hero__content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero__content h2 {
+    font-size: 1rem;
+  }
+
+  .hero__content p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.5rem;
+  }
+}
