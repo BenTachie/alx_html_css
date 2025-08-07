@@ -41,6 +41,26 @@ body {
   align-items: center;
 }
 
+.nav {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.nav__menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+
 .nav a {
   margin-left: 20px;
   color: var(--text-color);
